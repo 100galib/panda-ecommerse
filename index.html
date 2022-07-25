@@ -7,8 +7,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   </head>
   <body>
-    <header class="container">
-        <nav class="navbar navbar-expand-lg bg-light">
+    <header class="container" id="home">
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
             <div class="container">
               <a class="navbar-brand" href="#">
                 <img src="images/logo.png" alt="" class="d-inline-block align-text-top">
@@ -19,16 +19,16 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
+                    <a class="nav-link" href="#shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Back Pack</a>
+                    <a class="nav-link" href="#bag">Back Pack</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Subscribe</a>
+                    <a class="nav-link" href="#subs">Subscribe</a>
                   </li>
                 </ul>
               </div>
@@ -123,7 +123,7 @@
       </div>
       <!-- Top Section End -->
       <!-- Shoes Section Start -->
-        <section class="container my-5">
+        <section class="container my-5" id="shoes">
           <h2 class="mb-4">Shoes Section</h2>
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
             <div class="col">
@@ -169,7 +169,7 @@
         </section>
       <!-- Shoes Section End -->
       <!-- Bag Section Start -->
-      <section class="container my-5">
+      <section class="container my-5" id="bag">
         <h2 class="mb-4">Red Laltu Bag</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div class="col">
@@ -215,7 +215,7 @@
       </section>
       <!-- Bag Section End -->
       <!-- Form Section Start -->
-      <section style="height: 300px;" class="container rounded-3 my-5 d-flex justify-content-center align-items-center bg-info">
+      <section style="height: 300px;" class="container rounded-3 my-5 d-flex justify-content-center align-items-center bg-info" id="subs">
         <div>
           <h1>LET'S STAY IN TOUCH</h1>
           <p>Get updates on sales, specials and more</p>
@@ -229,6 +229,10 @@
       </section>
       <!-- Form Section End -->
     </main>
+    <!-- Footer section -->
+    <footer class="text-center">
+      <p><small>©2022. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
